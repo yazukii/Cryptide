@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ><!-- onclick="getCoords(event)" -->
+    <div id="wrapGame">
+    <div class="background"></div>
+
+    <!-- <img id="island" src="images/island.png" alt="island"> -->
+
+    <div id="islandHitbox"></div>
+    <div id="islandHitbox2"></div>
+    <div id="islandHitbox3"></div>
+    <div id="steep1"></div>
+    <div id="steep2"></div>
+    <div id="steep3"></div>
+    <div id="steep4"></div>
+    <div id="steep5"></div>
+    <div id="steep6"></div>       
+        
+    <img id="sign" src="images/11b52ea12b329819d532f1e8d068c8bc.png" alt="sign">
+
+    <div id="cryptide"></div>
+
+    <div id="persoId"></div>
+
+    <div id="read">
+        <img id="eKey" src="images/Ekey.png" alt="e">
+        <p>To read</p>
+    </div>
+
+    <div id="dock">
+        <img id="eKey" src="images/Ekey.png" alt="e">
+        <p>To dock</p>
+    </div>
+
+    <div id="signHb"></div>
+
+    <img id="submarine" src="images/submarine.gif" alt="submarine">
+
+    <img id="splash" src="images/splash.png" alt="splash">
+
+    <div id="particles-js" class="particles"></div>
+
+    <div id="sea"></div>
+
+    <div id="port"></div>
+
+    <div id="submarineDlg">
+        <p>Enter the submarine?</p>
+        <div class="button">
+            <button onclick="enterSub()">Yes!</button>
+            <button onclick="leave()">No</button>
+        </div>
+    </div>
+
+    <div id="startScreen">
+        <h1>Cryptide</h1>
+        <p>Press "enter" to start..</p>
+    </div>
+
+    <div id="fpsCounter">
+        <p></p>
+    </div>
+
+    <div id="devmode">
+        <label id="switch">
+            <input onclick="devMode()" type="checkbox">
+            <span id="slider-round"></span>
+        </label>
+        <p>Dev Mode</p>
+    </div> 
+        
+    <script src="js/variable.js" ></script>
+    <script src="js/newUnderwater.js" ></script>*
+    <script src="js/gravity.js" ></script>
+    <script src="js/index.js"></script>
+    <script src="js/hitBoxes.js" ></script>
+    <script src="js/landMoves.js" ></script>
+    <script src="js/interactions.js" ></script>
+    <script src="js/dev.js"></script>
+</div>
+</body>
+</html>
